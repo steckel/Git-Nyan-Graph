@@ -16,11 +16,23 @@ CYAN="$e[0;96m"
 RED="$e[0;91m"
 YELLOW="$e[0;93m"
 GREEN="$e[0;92m"
-echo -en $RED'-_-_-_-_-_-_-_'
-echo -e $RESET$BOLD',------,'$RESET
-echo -en $YELLOW'_-_-_-_-_-_-_-'
-echo -e $RESET$BOLD'|   /\_/\\'$RESET
-echo -en $GREEN'-_-_-_-_-_-_-'
-echo -e $RESET$BOLD'~|__( ^ .^)'$RESET
-echo -en $CYAN'-_-_-_-_-_-_-'
-echo -e $RESET$BOLD'""  ""'$RESET
+
+if [ "$1" = "-alt" ]; then
+    echo -en $RED'`·.,¸,.·*·.'
+    echo -e $RESET$BOLD'╭━━━━╮'$RESET
+    echo -en $YELLOW'`·.,¸,.·*·.'
+    echo -e $RESET$BOLD'|::: /\_/\\'$RESET
+    echo -en $GREEN'`·.,¸,.·*·.'
+    echo -e $RESET$BOLD'|:::( ◕ᴥ◕)'$RESET
+    echo -en $CYAN'`·.,¸,.·*·.'
+    echo -e $RESET$BOLD'u-u━━-u--u'$RESET
+else
+    echo -en $RED'-_-_-_-_-_-_-_'
+    echo -e $RESET$BOLD',------,'$RESET
+    echo -en $YELLOW'_-_-_-_-_-_-_-'
+    echo -e $RESET$BOLD'|   /\_/\\'$RESET
+    echo -en $GREEN'-_-_-_-_-_-_-'
+    echo -e $RESET$BOLD'~|__( ^ .^)'$RESET
+    echo -en $CYAN'-_-_-_-_-_-_-'
+    echo -e $RESET$BOLD'""  ""'$RESET
+fi

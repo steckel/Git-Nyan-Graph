@@ -22,4 +22,8 @@ $ `sudo cp nyan.sh /usr/bin/nyan`
 
 $ `nyan`
 
+- Or try using the '-alt' flag for the alternate Nyan Cat (at @mayognaise's request)
+
+$ `nyan -alt`
+
 ![Example](https://github.com/steckel/Git-Nyan-Graph/raw/master/screenShot.png)
