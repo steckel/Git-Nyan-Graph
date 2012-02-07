@@ -6,6 +6,10 @@ $ `cd Desktop`
 
 $ `git clone git@github.com:steckel/Git-Nyan-Graph.git`
 
+- Change directories so that you're within the repo
+
+$ `cd Git-Nyan-Graph/`
+
 - Customize nyan.sh to your "git log --graph" liking (I prefer '--pretty=oneline')
 
 - Make sure nyan.sh is executable
