@@ -16,18 +16,20 @@ $ `cd Git-Nyan-Graph/`
 
 $ `chmod +x nyan.sh`
 
-- If you're on Mac OS X, you'll want to copy the shell script to your /usr/bin/local/ folder (if you're not on Mac OS X, feel free to let me know where your executable scripts go and I'll note it here). At this point you may also rename the shell script to the command you wish to use to trigger it (I like using 'nyan' without the .sh extension).
+- If you're on Mac OS X, you'll want to copy the shell script to your /usr/bin/local/ folder (if you're not on Mac OS X, feel free to let me know where your executable scripts go and I'll note it here).
 
-$ `sudo cp nyan.sh /usr/bin/nyan`
+- At this point you may also rename the shell script to the command you wish to use to trigger it. I like using 'git nyan' so I rename the file `git-nyan` without the .sh extensions (thanks @larzconwell for that tip).
+
+$ `sudo cp nyan.sh /usr/bin/git-nyan`
 
 #Usage
 
 - Open a new terminal window, navigate to a repo with plenty branches and merges and trigger the sucker.
 
-$ `nyan`
+$ `git nyan`
 
 - Or try using the '-alt' flag for the alternate Nyan Cat (at @mayognaise's request)
 
-$ `nyan -alt`
+$ `git nyan -alt`
 
 ![Example](https://github.com/steckel/Git-Nyan-Graph/raw/master/screenShot.png)
